@@ -1,0 +1,10 @@
+#Archivos excluidos del repositorio
+*.csm
+*.bak
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.tds
+*.obj
+*.exe
