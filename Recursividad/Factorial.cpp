@@ -21,7 +21,10 @@ int main () {
  * el [valor - 1]
 */
 int factorial (int valor) {
-    if (valor > 1) {
+    if (valor == 0) {
+        return 1;
+    }
+    else {
         valor *= factorial(valor-1); // es lo mismo que [valor = valor * factorial(valor - 1);]
     }
     return valor;
